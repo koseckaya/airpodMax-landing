@@ -84,7 +84,7 @@ ul {
 .main__title {
     font-size: 64px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .title__pod {
     position: relative;
@@ -104,7 +104,7 @@ ul {
     position: relative;
     z-index: -1;
 }
-// Choose color
+
 .choose-color {
     padding: 45px 0 180px;
     text-align: center;
@@ -129,13 +129,14 @@ ul {
     border: 1px solid #777;
     padding: 50px 55px;
 }
-// composition
+
 .composition {
     margin-bottom: 180px;
 }
 
 .composition__title {
     text-align: center;
+    margin-bottom: 50px;
 }
 .composition__text {
     text-align: center;
@@ -147,6 +148,7 @@ ul {
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    gap: 150px;
 }
 .composition__inner-text {
     display: flex;
@@ -156,4 +158,28 @@ ul {
 }
 .composition__inner-text p {
     width: 230px;
+}
+
+.case {
+    background-color: #fafafa;
+    text-align: center;
+    padding: 80px 0 100px;
+}
+.case__text {
+    margin: 0 auto 40px;
+    max-width: 825px;
+}
+.energy__title {
+    padding-top: 160px;
+    margin-bottom: 40px;
+}
+.energy__num {
+    font-size: 210px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    line-height: 210px;
+}
+.energy__text {
+    margin: 0 auto;
+    max-width: 400px;
 }

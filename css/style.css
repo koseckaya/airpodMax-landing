@@ -183,3 +183,41 @@ ul {
     margin: 0 auto;
     max-width: 400px;
 }
+
+.audio {
+    background-image: url(../images/audio-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.audio__inner {
+    min-height: 200vh; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.audio__box {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 30vh;
+}
+.audio__text{
+    width: 300px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+    background-color: #fff;
+    padding: 15px 58px;
+    border-radius: 30px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.footer {
+    padding: 50px 0 40px;
+    background-color: #000;
+}
